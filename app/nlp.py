@@ -14,7 +14,7 @@ Created on Tue Apr 25 15:10:58 2017
 from .inputhandler import readStopwords
 import nltk
 from nltk.stem import WordNetLemmatizer
-
+nltk.download('punkt')
 
 class TextAnalyser:
         # stemming values
